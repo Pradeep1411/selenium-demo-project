@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+    <reporter-output>
+    </reporter-output>
+    <suite name="Default suite" duration-ms="22266" started-at="2022-05-07T07:33:28Z"
+           finished-at="2022-05-07T07:33:50Z">
+        <groups>
+        </groups>
+        <test name="Default test" duration-ms="22266" started-at="2022-05-07T07:33:28Z"
+              finished-at="2022-05-07T07:33:50Z">
+            <class name="Test.DemoPortalTest">
+                <test-method status="PASS" signature="SetEnvVar()[pri:0, instance:Test.DemoPortalTest@4501b7af]"
+                             name="SetEnvVar" is-config="true" duration-ms="402" started-at="2022-05-07T13:03:28Z"
+                             finished-at="2022-05-07T13:03:28Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- SetEnvVar -->
+                <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test.DemoPortalTest@4501b7af]"
+                             name="beforeClass" is-config="true" duration-ms="1" started-at="2022-05-07T13:03:28Z"
+                             finished-at="2022-05-07T13:03:28Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- beforeClass -->
+                <test-method status="PASS"
+                             signature="SetUpForEachTest(java.lang.reflect.Method)[pri:0, instance:Test.DemoPortalTest@4501b7af]"
+                             name="SetUpForEachTest" is-config="true" duration-ms="2436"
+                             started-at="2022-05-07T13:03:28Z" finished-at="2022-05-07T13:03:31Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[public void Test.DemoPortalTest.DemoFunction() throws java.lang.Exception]]>
+                            </value>
+                        </param>
+                    </params>
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- SetUpForEachTest -->
+                <test-method status="PASS" signature="DemoFunction()[pri:0, instance:Test.DemoPortalTest@4501b7af]"
+                             name="DemoFunction" duration-ms="13974" started-at="2022-05-07T13:03:31Z"
+                             finished-at="2022-05-07T13:03:45Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- DemoFunction -->
+                <test-method status="PASS"
+                             signature="TearDownAfterEachTest(org.testng.ITestResult)[pri:0, instance:Test.DemoPortalTest@4501b7af]"
+                             name="TearDownAfterEachTest" is-config="true" duration-ms="4996"
+                             started-at="2022-05-07T13:03:45Z" finished-at="2022-05-07T13:03:50Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[[TestResult name=DemoFunction status=SUCCESS method=DemoPortalTest.DemoFunction()[pri:0, instance:Test.DemoPortalTest@4501b7af] output={null}]]]>
+                            </value>
+                        </param>
+                    </params>
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- TearDownAfterEachTest -->
+                <test-method status="PASS" signature="CreateReport()[pri:0, instance:Test.DemoPortalTest@4501b7af]"
+                             name="CreateReport" is-config="true" duration-ms="426" started-at="2022-05-07T13:03:50Z"
+                             finished-at="2022-05-07T13:03:50Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- CreateReport -->
+            </class> <!-- Test.DemoPortalTest -->
+        </test> <!-- Default test -->
+    </suite> <!-- Default suite -->
+</testng-results>

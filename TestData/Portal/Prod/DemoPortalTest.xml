@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <DemoFunction>
+        <TCDesc>Demo Function</TCDesc>
+        <ClassName>DemoPortalTest</ClassName>
+        <TestMethodName>DemoFunction</TestMethodName>
+        <RunFlag>Y</RunFlag>
+        <Userid>ABC</Userid>
+        <Password>ABC</Password>
+        <Role>None</Role>
+
+    </DemoFunction>
+
+
+</dataset>
