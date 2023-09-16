@@ -8,5 +8,6 @@ public class PageBase {
 
     public PageBase(DriverContext drivercontext) {
         this.driver = drivercontext.driver;
+
     }
 }

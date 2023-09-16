@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset>
-    <DemoFunction>
-        <TCDesc>Demo Function</TCDesc>
+    <Task1>
+        <TCDesc>Login to the HRM Portal & Try to create a employee using mismatching password</TCDesc>
         <ClassName>DemoPortalTest</ClassName>
-        <TestMethodName>DemoFunction</TestMethodName>
+        <TestMethodName>Task1</TestMethodName>
         <RunFlag>Y</RunFlag>
-        <Userid>ABC</Userid>
-        <Password>ABC</Password>
+        <Userid>Admin</Userid>
+        <Password>admin123</Password>
         <Role>None</Role>
 
-    </DemoFunction>
+    </Task1>
 
+    <Task2>
+        <TCDesc>Login to the HRM Portal and Try to create valid employee </TCDesc>
+        <ClassName>DemoPortalTest</ClassName>
+        <TestMethodName>Task2</TestMethodName>
+        <RunFlag>Y</RunFlag>
+        <Userid>Admin</Userid>
+        <Password>admin123</Password>
+        <Role>None</Role>
 
+    </Task2>
 </dataset>

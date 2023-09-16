@@ -16,7 +16,8 @@ import java.time.ZoneOffset;
 
 public class TestBase extends ConfigHelper {
     public CommonPageActions PgCommonMethods;
-    public DemoPortal DemoPortal;
+    public DemoPortal DemoPortalObj;
+   // public HRMDashboardPage HRMDashboardPageObj;
     String currentTestClass;
     String currentTestName;
     String currentUTCTime;
@@ -45,8 +46,8 @@ public class TestBase extends ConfigHelper {
             PgCommonMethods = new CommonPageActions(drivercontext);
             //here we can also add login  page or any other pagebase
 
-            DemoPortal = new DemoPortal(drivercontext);
-
+            DemoPortalObj = new DemoPortal(drivercontext);
+            //HRMDashboardPageObj= new HRMDashboardPage(drivercontext);
 
             currentUTCTime = OffsetDateTime.now(ZoneOffset.UTC).toString().replace("T", " ").replace("Z", "");
             CustomReporter.AddtestCaseDataToHtmlReport(currentTestName);

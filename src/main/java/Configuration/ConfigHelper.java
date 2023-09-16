@@ -10,9 +10,11 @@ public class ConfigHelper {
     public static String Browser;
     public static String BrowserMode;
     public static String URL;
+    public static String HRM_PORTAL_URL;
 
 
     private static HashMap<String, String> configData = new HashMap<String, String>();
+
 
     public static void ReadConfigurationData() throws IOException {
         String projectpath = System.getProperty("user.dir");
@@ -31,6 +33,7 @@ public class ConfigHelper {
         BrowserMode = ConfigDataValueperkey("BrowserMode");
         PortalEnv = ConfigDataValueperkey("PortalEnv");
         URL = ConfigDataValueperkey("Swiggy_URL");
+        HRM_PORTAL_URL=ConfigDataValueperkey("HRM_Portal");
 
 
     }
